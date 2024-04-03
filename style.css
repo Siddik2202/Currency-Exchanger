@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    outline: none;
+    border: none;
+}
+body{
+    background-color: #9873f3;
+}
+.wrapper{
+    width: 90%;
+    max-width: 30em;
+    background-color: #fff;
+    position: absolute;
+    padding: 2em;
+    border-radius: 0.8em; 
+    top: 10%;
+    left: 35%;
+  }
+.app-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.app-icon{
+    width: 9.37em;
+}
+.app-title{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+
+}
+label{
+    display: block;
+    font-weight: 600;
+}
+input#amount{
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+    color: rgb(181, 171, 171);
+    padding: 0.5em;
+    margin: 2em 0;   
+}
+input#amount:focus{
+    color: #9873fe;
+    border-color: #9873fe;
+}
+.dropdowns{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 1em;
+}
+select{
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1em;
+    border-radius: 0.2em;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("abc.jpg");
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%, center;
+    background-size:20px 20px;
+    background-color: #ba47b0;
+    color: #ffffff;
+}
+select option{
+    background-color: #ffffff;
+    color: #02002c;
+}
+button{
+    font-size: 1em;
+    width: 100%;
+    background-color: #9873f3;
+    padding: 1em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#result{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    color: #02002c;
+    background-color: #e5dbff;
+    padding: 0.8em 0;
+}
+
